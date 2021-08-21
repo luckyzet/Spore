@@ -1,0 +1,210 @@
+# Общие настройки режима.
+
+# Настройки БД
+database:
+  type: MYSQL
+  hostname: 127.0.0.1
+  port: 3306
+  database: Spore_dev
+  username: root
+  password: ""
+
+settings:
+  # Кол-во разблокированных персонажей
+  charactersCount: 7
+
+# Миры
+worlds:
+  # Спавн
+  SPAWN: "spawn"
+  # Игровая локация
+  ARENA: "arena"
+
+# Характеристики еды
+food:
+  MEAT:
+    1:
+      # Днк за убийство
+      dna: 1
+      health: 2
+      scale: 0.1
+      # Уровни игроков которые могут есть
+      levels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+    2:
+      # Днк за убийство
+      dna: 2
+      health: 2
+      scale: 0.5
+      levels: [ 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    3:
+      # Днк за убийство
+      dna: 3
+      health: 2
+      scale: 1
+      levels: [ 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    4:
+      # Днк за убийство
+      dna: 4
+      health: 2
+      scale: 1.5
+      levels: [ 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    5:
+      # Днк за убийство
+      dna: 5
+      health: 2
+      scale: 2
+      levels: [ 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    6:
+      # Днк за убийство
+      dna: 6
+      health: 2
+      scale: 2.5
+      levels: [ 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    7:
+      # Днк за убийство
+      dna: 7
+      health: 2
+      scale: 3
+      levels: [ 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    8:
+      # Днк за убийство
+      dna: 8
+      health: 2
+      scale: 3.5
+      levels: [ 35, 36, 37, 38, 39, 40 ]
+  GRASS:
+    1:
+      # Днк за убийство
+      dna: 1
+      health: 2
+      scale: 0.1
+      # Уровни игроков которые могут есть
+      levels: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    2:
+      # Днк за убийство
+      dna: 2
+      health: 2
+      scale: 0.5
+      levels: [ 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    3:
+      # Днк за убийство
+      dna: 3
+      health: 2
+      scale: 1
+      levels: [ 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    4:
+      # Днк за убийство
+      dna: 4
+      health: 2
+      scale: 1.5
+      levels: [ 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    5:
+      # Днк за убийство
+      dna: 5
+      health: 2
+      scale: 2
+      levels: [ 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    6:
+      # Днк за убийство
+      dna: 6
+      health: 2
+      scale: 2.5
+      levels: [ 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    7:
+      # Днк за убийство
+      dna: 7
+      health: 2
+      scale: 3
+      levels: [ 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+    8:
+      # Днк за убийство
+      dna: 8
+      health: 2
+      scale: 3.5
+      levels: [ 35, 36, 37, 38, 39, 40 ]
+
+# Настройка уровней игра
+levels:
+  1:
+    # Значение ДНК, которое содержится в одном чекпоинте.
+    # Чекпоинтов - 5 штук
+    # Соотвественно суммарное кол-во днк на этот уровень = checkpointSize * 5
+    checkpointSize: 3
+  2:
+    checkpointSize: 11
+  3:
+    checkpointSize: 12
+  4:
+    checkpointSize: 13
+  5:
+    checkpointSize: 14
+  6:
+    checkpointSize: 15
+  7:
+    checkpointSize: 16
+  8:
+    checkpointSize: 17
+  9:
+    checkpointSize: 18
+  10:
+    checkpointSize: 19
+  11:
+    checkpointSize: 20
+  12:
+    checkpointSize: 21
+  13:
+    checkpointSize: 22
+  14:
+    checkpointSize: 23
+  15:
+    checkpointSize: 24
+  16:
+    checkpointSize: 25
+  17:
+    checkpointSize: 26
+  18:
+    checkpointSize: 27
+  19:
+    checkpointSize: 28
+  20:
+    checkpointSize: 29
+  21:
+    checkpointSize: 30
+  22:
+    checkpointSize: 31
+  23:
+    checkpointSize: 32
+  24:
+    checkpointSize: 33
+  25:
+    checkpointSize: 34
+  26:
+    checkpointSize: 35
+  27:
+    checkpointSize: 36
+  28:
+    checkpointSize: 37
+  29:
+    checkpointSize: 38
+  30:
+    checkpointSize: 39
+  31:
+    checkpointSize: 40
+  32:
+    checkpointSize: 41
+  33:
+    checkpointSize: 42
+  34:
+    checkpointSize: 43
+  35:
+    checkpointSize: 44
+  36:
+    checkpointSize: 45
+  37:
+    checkpointSize: 46
+  38:
+    checkpointSize: 47
+  39:
+    checkpointSize: 48
+  40:
+    checkpointSize: 49

@@ -1,0 +1,21 @@
+name: Spore
+main: com.luckyzz.sporegame.SporeGamePlugin
+version: ${project.version}
+author: luckyzz
+description: Spore game for cristalix
+softdepend:
+  - AkameApi
+  - CoreAPI
+  - ProtocolLib
+commands:
+  sporeadmin:
+    description: Commands for admins only
+    aliases:
+      - admin
+  menu:
+    description: Menu with all player actions
+  selectcharacter:
+    description: Select character works only if player is on spawn
+    aliases:
+      - select
+      - character
